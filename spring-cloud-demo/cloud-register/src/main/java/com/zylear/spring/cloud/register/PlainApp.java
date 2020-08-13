@@ -1,4 +1,4 @@
-package com.zylear.spring.cloud;
+package com.zylear.spring.cloud.register;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

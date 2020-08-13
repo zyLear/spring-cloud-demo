@@ -1,10 +1,10 @@
-package com.zylear.spring.cloud;
+package com.zylear.spring.cloud.register;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CloudApplicationTests {
+class CloudRegisterApplicationTests {
 
     @Test
     void contextLoads() {
