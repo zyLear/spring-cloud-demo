@@ -42,6 +42,15 @@
 <!--        </plugins>-->
 <!--    </build>-->
 
+<!--    <dependencies>-->
+<!--        &lt;!&ndash; https://mvnrepository.com/artifact/cn.hutool/hutool-all &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>cn.hutool</groupId>-->
+<!--            <artifactId>hutool-all</artifactId>-->
+<!--            <version>5.3.10</version>-->
+<!--        </dependency>-->
+<!--    </dependencies>-->
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -57,6 +66,7 @@
     <modules>
         <module>cloud-register</module>
         <module>cloud-client</module>
+        <module>cloud-plain</module>
     </modules>
 
 </project>
