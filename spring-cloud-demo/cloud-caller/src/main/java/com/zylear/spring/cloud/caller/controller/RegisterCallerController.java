@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/caller")
-public class RegisterClientController {
+public class RegisterCallerController {
 
     @Autowired
     private SimpleFeign simpleFeign;
