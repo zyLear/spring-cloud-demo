@@ -75,6 +75,7 @@
         <module>cloud-client</module>
         <module>cloud-plain</module>
         <module>cloud-caller</module>
+        <module>commons</module>
     </modules>
 
 </project>

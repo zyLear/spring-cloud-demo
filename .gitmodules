@@ -1,0 +1,3 @@
+[submodule "spring-cloud-demo/commons"]
+	path = spring-cloud-demo/commons
+	url = git@github.com:zyLear/commons.git
