@@ -48,6 +48,12 @@
 
         <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
 
+        <!-- https://mvnrepository.com/artifact/com.arronlong/httpclientutil -->
+        <dependency>
+            <groupId>com.arronlong</groupId>
+            <artifactId>httpclientutil</artifactId>
+            <version>1.0.4</version>
+        </dependency>
 
         <dependency>
             <groupId>cn.hutool</groupId>
