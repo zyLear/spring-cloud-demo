@@ -54,7 +54,7 @@ public class IoTest {
     }
 
     @Test
-    public void mappedByteBuffer() throws FileNotFoundException {
+    public void mappedByteBuffer() throws IOException {
         // 通过 RandomAccessFile 创建对应的文件操作类，第二个参数 rw 代表该操作类可对其做读写操作
         RandomAccessFile raf = new RandomAccessFile("fileName", "rw");
 
@@ -66,7 +66,7 @@ public class IoTest {
 
 
         // 把文件映射到内存
-        MappedByteBuffer mbb = fc.map(FileChannel.MapMode.READ_WRITE, 0, (int)    fc.size());
+        MappedByteBuffer mbb = fc.map(FileChannel.MapMode.READ_WRITE, 0, (int) fc.size());
 
         // 读写文件
         mbb.putInt(4);
