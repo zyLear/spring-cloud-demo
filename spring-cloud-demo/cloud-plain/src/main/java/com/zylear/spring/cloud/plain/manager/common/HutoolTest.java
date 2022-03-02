@@ -1,4 +1,4 @@
-package com.zylear.spring.cloud.plain.manager;
+package com.zylear.spring.cloud.plain.manager.common;
 
 import cn.hutool.core.annotation.AnnotationUtil;
 import cn.hutool.core.bean.BeanUtil;

@@ -1,4 +1,4 @@
-package com.zylear.spring.cloud.plain.manager;
+package com.zylear.spring.cloud.plain.manager.common;
 
 import com.zylear.spring.cloud.plain.job.OnceJob;
 import org.quartz.*;
