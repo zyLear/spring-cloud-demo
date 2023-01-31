@@ -18,6 +18,7 @@ public class CloudCallerApplication extends SpringBootServletInitializer {
 
     static {
         logger.info("start.");
+        logger.info("sdfsd");
     }
 
     public static void main(String[] args) {

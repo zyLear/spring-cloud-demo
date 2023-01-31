@@ -30,7 +30,19 @@ public class PlainApp {
 
     public interface Test {
 
-        void gg(String x);
+        static int a = 1;
+
+        abstract void gg(String x);
     }
 
+
+
+}
+ abstract class TESt11 {
+
+    static int g1g(String x){
+        return 1;
+    }
+
+    abstract void gg(String x);
 }
