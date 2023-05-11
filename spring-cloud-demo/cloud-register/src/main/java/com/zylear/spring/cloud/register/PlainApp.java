@@ -8,7 +8,7 @@ public class PlainApp {
     private static final Logger logger = LoggerFactory.getLogger(PlainApp.class);
 
     public static void main(String[] args) {
-        logger.info("plain app");
+        logger.info("plain app");  // test conflict 2
 
         Test selfInitializer = new PlainApp().getSelfInitializer();
         System.out.println(selfInitializer);
