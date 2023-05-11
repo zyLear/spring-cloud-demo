@@ -20,7 +20,7 @@ public class CloudRegisterApplication extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
         SpringApplication.run(CloudRegisterApplication.class, args);
-        logger.info("startup success.");
+        logger.info("startup success."); // conflict 1
     }
 
     @Override
