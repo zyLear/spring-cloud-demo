@@ -8,4 +8,4 @@ eureka:
       defaultZone: http://localhost:8761/eureka    #设置与eureka交互的地址，查询服务和注册服务都需要依赖这个地址，默认是：http://localhost:8761/eureka
 spring:
   application:
-    name: eureka-client
+    name: eureka-caller
