@@ -70,6 +70,7 @@
 
 
     <build>
+        <finalName>could-register</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
