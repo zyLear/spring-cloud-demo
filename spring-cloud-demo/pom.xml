@@ -76,6 +76,8 @@
         <module>cloud-plain</module>
         <module>cloud-caller</module>
         <module>cloud-dubbo-server</module>
+        <module>cloud-dubbo-client</module>
+
 <!--        <module>commons</module>-->
     </modules>
 
