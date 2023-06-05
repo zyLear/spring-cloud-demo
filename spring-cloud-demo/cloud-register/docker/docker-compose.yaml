@@ -1,0 +1,27 @@
+version: '3.1'
+services:
+  web:                                                      #服务名称
+    image: cloud-register:latest                    #指定镜像路径
+    container_name: cloud-register-container-port                                    #指定容器名称
+    ports:
+      - 18899:8761                                             #指定端口的映射
+    environment:
+      TZ: Asia/shanghai                                       #指定时区
+  redis: #服务名称
+    #    restart: always                                           #代表只要docker启动，那么这个容器就跟着一起启动
+    image: redis:latest                    #指定镜像路径
+    container_name: container-redis                                    #指定容器名称
+    ports:
+      - 3667:3667                                             #指定端口的映射
+    environment:
+      TZ: Asia/shanghai                                       #指定时区
+  mysql: #服务名称
+    image: mysql:latest                    #指定镜像路径
+    container_name: container-mysql                                    #指定容器名称
+    ports:
+      - 3306:3306                                             #指定端口的映射
+    environment:
+      MYSQL_ROOT_PASSWORD: root                             #指定MySQL账号root的密码
+      TZ: Asia/shanghai                                       #指定时区
+    volumes:
+      - /Users/zongyu.xie/docker_volumes/docker_mysql_tomcat/mysql:/var/lib/mysql                #指定映射数据卷
