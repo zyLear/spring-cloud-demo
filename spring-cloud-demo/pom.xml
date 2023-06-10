@@ -77,6 +77,8 @@
         <module>cloud-caller</module>
         <module>cloud-dubbo-server</module>
         <module>cloud-dubbo-client</module>
+        <module>cloud-webflux-provider</module>
+
 
 <!--        <module>commons</module>-->
     </modules>

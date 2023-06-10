@@ -10,9 +10,8 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
-@EnableEurekaClient
 @EnableFeignClients(basePackages = {"com.zylear.spring.cloud.caller.feign"})
-public class CloudCallerApplication extends SpringBootServletInitializer {
+public class CloudCallerApplication {
 
     public static final Logger logger = LoggerFactory.getLogger(CloudCallerApplication.class);
 
@@ -26,8 +25,4 @@ public class CloudCallerApplication extends SpringBootServletInitializer {
         logger.info("startup success.");
     }
 
-    @Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder.sources(CloudCallerApplication.class);
-    }
 }

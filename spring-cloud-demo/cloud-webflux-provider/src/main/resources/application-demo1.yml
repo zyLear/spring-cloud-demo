@@ -1,5 +1,5 @@
 server:
-  port: 8723      #声明端口号
+  port: 9761      #声明端口号
 eureka:
   client:
     register-with-eureka: true    #默认是true，将自己注册到eureka上
@@ -8,4 +8,4 @@ eureka:
       defaultZone: http://localhost:8761/eureka    #设置与eureka交互的地址，查询服务和注册服务都需要依赖这个地址，默认是：http://localhost:8761/eureka
 spring:
   application:
-    name: eureka-caller
+    name: cloud-webflux-provider

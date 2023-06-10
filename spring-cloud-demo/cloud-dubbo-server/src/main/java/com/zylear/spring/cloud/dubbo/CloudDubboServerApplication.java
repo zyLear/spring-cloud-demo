@@ -8,6 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.context.ConfigurableApplicationContext;
 
+import java.util.List;
+
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 @EnableDubbo(scanBasePackages = "com.zylear.spring.cloud.dubbo")
 public class CloudDubboServerApplication {

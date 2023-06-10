@@ -1,6 +1,6 @@
 version: '3.1'
 services:
-  web:                                                      #服务名称
+  web: #服务名称
     image: cloud-register:latest                    #指定镜像路径
     container_name: cloud-register-container-port                                    #指定容器名称
     ports:
